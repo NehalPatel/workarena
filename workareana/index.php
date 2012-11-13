@@ -3,5 +3,7 @@
  * Author : Nehal Patel
  * Company : Connectech Solution
  */
-phpinfo();
+	
+
+	echo 'THIS WILL CREATE NEW CHANGES IN NEXT COMMIT';
 ?>
