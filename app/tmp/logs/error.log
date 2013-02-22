@@ -1,0 +1,166 @@
+2013-02-22 06:02:08 Error: [MissingActionException] Action UsersController::login() could not be found.
+Exception Attributes: array (
+  'controller' => 'UsersController',
+  'action' => 'login',
+)
+Request URL: /workarena/users/login
+Stack Trace:
+#0 C:\wamp\www\cakephp\lib\Cake\Routing\Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#1 C:\wamp\www\cakephp\lib\Cake\Routing\Dispatcher.php(161): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest), Object(CakeResponse))
+#2 C:\wamp\www\workarena\app\webroot\index.php(102): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2013-02-22 06:02:54 Error: [MissingViewException] View file "C:\wamp\www\workarena\app\View\Users\login.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'C:\\wamp\\www\\workarena\\app\\View\\Users\\login.ctp',
+)
+Request URL: /workarena/users/login
+Stack Trace:
+#0 C:\wamp\www\cakephp\lib\Cake\View\View.php(467): View->_getViewFileName(NULL)
+#1 C:\wamp\www\cakephp\lib\Cake\Controller\Controller.php(947): View->render(NULL, NULL)
+#2 C:\wamp\www\cakephp\lib\Cake\Routing\Dispatcher.php(193): Controller->render()
+#3 C:\wamp\www\cakephp\lib\Cake\Routing\Dispatcher.php(161): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest), Object(CakeResponse))
+#4 C:\wamp\www\workarena\app\webroot\index.php(102): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2013-02-22 06:03:33 Error: [MissingViewException] View file "C:\wamp\www\workarena\app\View\Users\login.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'C:\\wamp\\www\\workarena\\app\\View\\Users\\login.ctp',
+)
+Request URL: /workarena/users/login
+Stack Trace:
+#0 C:\wamp\www\cakephp\lib\Cake\View\View.php(467): View->_getViewFileName(NULL)
+#1 C:\wamp\www\cakephp\lib\Cake\Controller\Controller.php(947): View->render(NULL, NULL)
+#2 C:\wamp\www\cakephp\lib\Cake\Routing\Dispatcher.php(193): Controller->render()
+#3 C:\wamp\www\cakephp\lib\Cake\Routing\Dispatcher.php(161): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest), Object(CakeResponse))
+#4 C:\wamp\www\workarena\app\webroot\index.php(102): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2013-02-22 06:03:39 Error: [MissingViewException] View file "C:\wamp\www\workarena\app\View\Users\login.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'C:\\wamp\\www\\workarena\\app\\View\\Users\\login.ctp',
+)
+Request URL: /workarena/users/login
+Stack Trace:
+#0 C:\wamp\www\cakephp\lib\Cake\View\View.php(467): View->_getViewFileName(NULL)
+#1 C:\wamp\www\cakephp\lib\Cake\Controller\Controller.php(947): View->render(NULL, NULL)
+#2 C:\wamp\www\cakephp\lib\Cake\Routing\Dispatcher.php(193): Controller->render()
+#3 C:\wamp\www\cakephp\lib\Cake\Routing\Dispatcher.php(161): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest), Object(CakeResponse))
+#4 C:\wamp\www\workarena\app\webroot\index.php(102): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2013-02-22 06:03:43 Error: [NotFoundException] Invalid user
+Request URL: /workarena/users/view
+Stack Trace:
+#0 [internal function]: UsersController->view()
+#1 C:\wamp\www\cakephp\lib\Cake\Controller\Controller.php(485): ReflectionMethod->invokeArgs(Object(UsersController), Array)
+#2 C:\wamp\www\cakephp\lib\Cake\Routing\Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#3 C:\wamp\www\cakephp\lib\Cake\Routing\Dispatcher.php(161): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest), Object(CakeResponse))
+#4 C:\wamp\www\workarena\app\webroot\index.php(102): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2013-02-22 06:03:49 Error: [MissingViewException] View file "C:\wamp\www\workarena\app\View\Users\login.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'C:\\wamp\\www\\workarena\\app\\View\\Users\\login.ctp',
+)
+Request URL: /workarena/users/login
+Stack Trace:
+#0 C:\wamp\www\cakephp\lib\Cake\View\View.php(467): View->_getViewFileName(NULL)
+#1 C:\wamp\www\cakephp\lib\Cake\Controller\Controller.php(947): View->render(NULL, NULL)
+#2 C:\wamp\www\cakephp\lib\Cake\Routing\Dispatcher.php(193): Controller->render()
+#3 C:\wamp\www\cakephp\lib\Cake\Routing\Dispatcher.php(161): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest), Object(CakeResponse))
+#4 C:\wamp\www\workarena\app\webroot\index.php(102): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2013-02-22 06:03:53 Error: [MissingViewException] View file "C:\wamp\www\workarena\app\View\Users\login.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'C:\\wamp\\www\\workarena\\app\\View\\Users\\login.ctp',
+)
+Request URL: /workarena/users/login
+Stack Trace:
+#0 C:\wamp\www\cakephp\lib\Cake\View\View.php(467): View->_getViewFileName(NULL)
+#1 C:\wamp\www\cakephp\lib\Cake\Controller\Controller.php(947): View->render(NULL, NULL)
+#2 C:\wamp\www\cakephp\lib\Cake\Routing\Dispatcher.php(193): Controller->render()
+#3 C:\wamp\www\cakephp\lib\Cake\Routing\Dispatcher.php(161): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest), Object(CakeResponse))
+#4 C:\wamp\www\workarena\app\webroot\index.php(102): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2013-02-22 06:04:14 Error: [MissingViewException] View file "C:\wamp\www\workarena\app\View\Users\login.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'C:\\wamp\\www\\workarena\\app\\View\\Users\\login.ctp',
+)
+Request URL: /workarena/users/login
+Stack Trace:
+#0 C:\wamp\www\cakephp\lib\Cake\View\View.php(467): View->_getViewFileName(NULL)
+#1 C:\wamp\www\cakephp\lib\Cake\Controller\Controller.php(947): View->render(NULL, NULL)
+#2 C:\wamp\www\cakephp\lib\Cake\Routing\Dispatcher.php(193): Controller->render()
+#3 C:\wamp\www\cakephp\lib\Cake\Routing\Dispatcher.php(161): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest), Object(CakeResponse))
+#4 C:\wamp\www\workarena\app\webroot\index.php(102): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2013-02-22 06:07:10 Error: Fatal Error (4): syntax error, unexpected ';', expecting ')' in [C:\wamp\www\workarena\app\View\Users\add.ctp, line 8]
+2013-02-22 06:07:10 Error: [FatalErrorException] syntax error, unexpected ';', expecting ')'
+Request URL: /workarena/users/add
+Stack Trace:
+#0 C:\wamp\www\cakephp\lib\Cake\Error\ErrorHandler.php(183): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'C:\wamp\www\wor...', 8)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'C:\wamp\www\wor...', 8, Array)
+#2 C:\wamp\www\cakephp\lib\Cake\Core\App.php(926): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'C:\wamp\www\wor...', 8, Array)
+#3 C:\wamp\www\cakephp\lib\Cake\Core\App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2013-02-22 06:27:35 Error: [MissingComponentException] Component class authorizeComponent could not be found.
+Exception Attributes: array (
+  'class' => 'authorizeComponent',
+  'plugin' => false,
+)
+Request URL: /workarena/posts/add
+Stack Trace:
+#0 C:\wamp\www\cakephp\lib\Cake\Controller\ComponentCollection.php(52): ComponentCollection->load('authorize', Array)
+#1 C:\wamp\www\cakephp\lib\Cake\Controller\Controller.php(634): ComponentCollection->init(Object(PostsController))
+#2 C:\wamp\www\cakephp\lib\Cake\Routing\Dispatcher.php(182): Controller->constructClasses()
+#3 C:\wamp\www\cakephp\lib\Cake\Routing\Dispatcher.php(161): Dispatcher->_invoke(Object(PostsController), Object(CakeRequest), Object(CakeResponse))
+#4 C:\wamp\www\workarena\app\webroot\index.php(102): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2013-02-22 07:00:52 Error: [PDOException] SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'isOwnedBy' at line 1
+Request URL: /workarena/posts/edit/2
+Stack Trace:
+#0 C:\wamp\www\cakephp\lib\Cake\Model\Datasource\DboSource.php(459): PDOStatement->execute(Array)
+#1 C:\wamp\www\cakephp\lib\Cake\Model\Datasource\DboSource.php(425): DboSource->_execute('isOwnedBy', Array)
+#2 C:\wamp\www\cakephp\lib\Cake\Model\Datasource\DboSource.php(669): DboSource->execute('isOwnedBy', Array, Array)
+#3 C:\wamp\www\cakephp\lib\Cake\Model\Datasource\DboSource.php(611): DboSource->fetchAll('isOwnedBy', Array, Array)
+#4 C:\wamp\www\cakephp\lib\Cake\Model\Model.php(799): DboSource->query('isOwnedBy', Array, Object(Post))
+#5 C:\wamp\www\workarena\app\Controller\PostsController.php(24): Model->__call('isOwnedBy', Array)
+#6 C:\wamp\www\workarena\app\Controller\PostsController.php(24): Post->isOwnedBy('2', '2')
+#7 C:\wamp\www\cakephp\lib\Cake\Controller\Component\Auth\ControllerAuthorize.php(64): PostsController->isAuthorized(Array)
+#8 C:\wamp\www\cakephp\lib\Cake\Controller\Component\AuthComponent.php(409): ControllerAuthorize->authorize(Array, Object(CakeRequest))
+#9 C:\wamp\www\cakephp\lib\Cake\Controller\Component\AuthComponent.php(335): AuthComponent->isAuthorized(Array)
+#10 [internal function]: AuthComponent->startup(Object(PostsController))
+#11 C:\wamp\www\cakephp\lib\Cake\Utility\ObjectCollection.php(131): call_user_func_array(Array, Array)
+#12 [internal function]: ObjectCollection->trigger(Object(CakeEvent))
+#13 C:\wamp\www\cakephp\lib\Cake\Event\CakeEventManager.php(247): call_user_func(Array, Object(CakeEvent))
+#14 C:\wamp\www\cakephp\lib\Cake\Controller\Controller.php(670): CakeEventManager->dispatch(Object(CakeEvent))
+#15 C:\wamp\www\cakephp\lib\Cake\Routing\Dispatcher.php(183): Controller->startupProcess()
+#16 C:\wamp\www\cakephp\lib\Cake\Routing\Dispatcher.php(161): Dispatcher->_invoke(Object(PostsController), Object(CakeRequest), Object(CakeResponse))
+#17 C:\wamp\www\workarena\app\webroot\index.php(102): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#18 {main}
+2013-02-22 08:59:30 Error: [MissingPluginException] Plugin Facebook could not be found.
+Exception Attributes: array (
+  'plugin' => 'Facebook',
+)
+Stack Trace:
+#0 C:\wamp\www\workarena\app\Config\bootstrap.php(75): CakePlugin::load('Facebook')
+#1 C:\wamp\www\cakephp\lib\Cake\Core\Configure.php(92): include('C:\wamp\www\wor...')
+#2 C:\wamp\www\cakephp\lib\Cake\bootstrap.php(163): Configure::bootstrap(true)
+#3 C:\wamp\www\workarena\app\webroot\index.php(88): include('C:\wamp\www\cak...')
+#4 {main}
+2013-02-22 09:00:00 Error: [MissingPluginException] Plugin Facebook could not be found.
+Exception Attributes: array (
+  'plugin' => 'Facebook',
+)
+Request URL: /workarena/posts/view/2
+Stack Trace:
+#0 C:\wamp\www\cakephp\lib\Cake\Core\App.php(364): CakePlugin::path('Facebook')
+#1 C:\wamp\www\cakephp\lib\Cake\Core\App.php(225): App::pluginPath('Facebook')
+#2 C:\wamp\www\cakephp\lib\Cake\Core\App.php(542): App::path('View/Helper', 'Facebook')
+#3 [internal function]: App::load('FacebookHelper')
+#4 [internal function]: spl_autoload_call('FacebookHelper')
+#5 C:\wamp\www\cakephp\lib\Cake\View\HelperCollection.php(129): class_exists('FacebookHelper')
+#6 C:\wamp\www\cakephp\lib\Cake\View\View.php(884): HelperCollection->load('Facebook.Facebo...', Array)
+#7 C:\wamp\www\cakephp\lib\Cake\View\View.php(463): View->loadHelpers()
+#8 C:\wamp\www\cakephp\lib\Cake\Controller\Controller.php(947): View->render(NULL, NULL)
+#9 C:\wamp\www\cakephp\lib\Cake\Routing\Dispatcher.php(193): Controller->render()
+#10 C:\wamp\www\cakephp\lib\Cake\Routing\Dispatcher.php(161): Dispatcher->_invoke(Object(PostsController), Object(CakeRequest), Object(CakeResponse))
+#11 C:\wamp\www\workarena\app\webroot\index.php(102): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#12 {main}
